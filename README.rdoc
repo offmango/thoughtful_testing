@@ -1,0 +1,21 @@
+== Thoughtful Testing
+
+This should be, god willing and the creek don't rise, a testing setup fully
+configured with Rspec, Cucumber, Spork, and Guard in Thoughtbot's recommended
+manner.
+
+Ideally, you can just clone this, change the app name in the config files (search for "thoughtful_testing" and "ThoughtfulTesting") to the name of your app, and be good to go.
+
+You'll also want to rm-rf .git and .gitignore.  
+
+If you're planning on committing your own project to GitHub, you should be able to
+just do the following (once you've created your repo on GitHub):
+
+* git init
+* touch README
+* git add README
+* git commit -m 'first commit'
+* git remote add origin https://github.com/[username]/[project_name].git
+* git push origin master
+
+That said, I haven't actually tested this yet.  So if there's a problem, let me know.
